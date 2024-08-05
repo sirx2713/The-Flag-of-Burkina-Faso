@@ -1,0 +1,25 @@
+h1{
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+#main-container{
+    position: relative;
+}
+#main-container > #red-box{
+    position: absolute;
+    height: 200px;
+    width: 800px;
+    background-color: #EF3340;
+}
+#main-container > #green-box{
+    position: absolute;
+    top: 200px;
+    height: 200px;
+    width: 800px;
+    background-color: #009739;
+}
+#main-container > #inner-container{
+    position: absolute;
+    top: -200px;
+    left: -15px;
+}
